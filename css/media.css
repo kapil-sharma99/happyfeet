@@ -1,0 +1,525 @@
+@media screen and (max-width: 768px) {
+  /*Navigation*/
+  #home {
+    display: none;
+  }
+
+  #mobile-menu {
+    display: block;
+    z-index: 1;
+    position: relative;
+  }
+
+  section.header-bg-parent {
+    position: relative;
+    top: -123px;
+  }
+
+  .mobile-logo {
+    margin: 14px;
+    float: left;
+    width: 20%;
+  }
+
+  .mobile-logo img {
+    width: 60px;
+    border-radius: 10px;
+  }
+
+  .cnt-info-col {
+    float: right;
+    width: 80%;
+    margin: 0 10px;
+    position: relative;
+    top: -63px;
+    background-color: transparent;
+    text-align: right;
+  }
+
+  button#toggle-bar {
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    background-color: #50aa00;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+  }
+
+  button#toggle-bar:hover {
+    background-color: #f47a14;
+  }
+
+  .menu {
+    float: none;
+    width: 100%;
+    position: absolute;
+    top: 46.5%;
+    left: 0;
+    text-align: center;
+    display: none;
+    color: white;
+    background-color: #f47a14;
+  }
+
+  .menu a {
+    display: block;
+    color: white;
+  }
+
+  /*Header*/
+  .header-col1 {
+    float: none;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    text-align: center;
+  }
+
+  .header-col2 {
+    float: none;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .header-col1 h2 {
+    margin: 0px;
+    color: #fff;
+    line-height: 50px;
+    font-size: 36px;
+  }
+
+  .header-col1 .typewrite {
+    font-size: 29px;
+  }
+
+  .header-col1 h5 {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .header-col1 p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    color: #fff;
+    padding: 10px;
+  }
+  a.common-btn {
+    padding: 13px 25px;
+    font-size: 12px;
+  }
+
+  .header-bg-par-img {
+    display: none;
+  }
+
+  /*Feature Par*/
+  .common-h2 {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 60px;
+  }
+
+  .feature-col-par {
+    background-color: #ffcfcf;
+    padding: 30px 10px;
+    margin-top: 20px;
+  }
+
+  .feature-col {
+    float: none;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /*Why-choose-us*/
+  section#why-choose-us {
+    margin: 0;
+  }
+
+  .why-choose-col {
+    float: none;
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .why-choose-col p {
+    padding: 5px;
+  }
+
+  .count-col {
+    float: none;
+    width: 100%;
+  }
+
+  .count-sub-col {
+    margin-bottom: 20px;
+  }
+
+  .milestone-counter {
+    margin: 10px;
+  }
+
+  .milestone-details {
+    font-size: 17px;
+  }
+
+  .stat {
+    width: 32%;
+  }
+
+  .stat-info-par {
+    width: 68%;
+  }
+
+  .stat-info-div p {
+    font-size: 13px;
+  }
+
+  .stat-info-sub-par {
+    margin: 10px 0 10px;
+  }
+
+  .highlight {
+    font-size: 26px;
+  }
+
+  .highlight:after {
+    font-size: 26px;
+    right: 8vw;
+  }
+
+  .highlight1 {
+    font-size: 26px;
+  }
+
+  .highlight1:after {
+    font-size: 26px;
+    right: 12vw;
+  }
+
+  /*Progress Bar*/
+  section#expand {
+    margin: 40px 0;
+  }
+
+  .expand-img-col {
+    float: none;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .expand-img-info-col {
+    float: none;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .circle {
+    width: 110px;
+  }
+
+  .circle canvas {
+    width: 90px !important;
+    height: 90px !important;
+  }
+
+  .circle strong {
+    top: 25px;
+    font-size: 23px;
+  }
+
+  .progress-info {
+    margin: 19px 0 19px;
+  }
+
+  .progress-info h3 {
+    font-size: 10px;
+  }
+
+  .progress-info p {
+    font-size: 12px;
+  }
+
+  /*FAQ*/
+  section#faq-par {
+    margin-top: 40px;
+  }
+
+  .faq-que-col {
+    float: none;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+    text-align: center;
+    padding: 0px 20px;
+  }
+
+  .faq-bg-col {
+    float: none;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .accordion-wrapper {
+    width: auto;
+  }
+
+  .accordion-content p {
+    font-size: 15px;
+  }
+
+  /*classes*/
+  .cont1 {
+    min-height: auto;
+  }
+
+  .container1 {
+    margin: 5vmin;
+  }
+
+  .card__head {
+    font-size: 0.9em !important;
+    padding: 0.3em !important;
+  }
+
+  .card1:not(:nth-child(5)) {
+    margin-right: 0.5em;
+  }
+
+  .card1:hover .card__head {
+    font-size: 1em !important;
+  }
+
+  /*videos*/
+  section#videos {
+    margin: 20px 0 80px 0;
+  }
+
+  .video-col {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .video-col span {
+    font-size: 12px;
+    padding: 13px 0 3px 0;
+  }
+
+  .video-col h3 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  /*contact*/
+  #contact {
+    padding: 60px 0;
+  }
+
+  .form-par {
+    width: 100%;
+  }
+
+  .form-par h2 {
+    font-size: 30px;
+  }
+
+  input.submit-btn {
+    font-size: 12px;
+  }
+
+  /*footer*/
+  .footer-col {
+    float: none;
+    width: 100%;
+    margin-right: 0%;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .footer-2-col {
+    left: 0;
+  }
+
+  hr.footer-hr {
+    margin: 30px 0 0;
+  }
+
+  p.copyright-footer {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .highlight:after {
+    font-size: 20px;
+    right: 6vw;
+  }
+
+  .why-choose-col p {
+    font-size: 14px;
+  }
+
+  .highlight1:after {
+    font-size: 20px;
+    right: 9vw;
+  }
+
+  .milestone-details {
+    font-size: 13px;
+  }
+
+  .stat-info-div p {
+    font-size: 11px;
+  }
+
+  .circle {
+    width: 80px;
+  }
+
+  .circle canvas {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .circle strong {
+    top: 15px;
+  }
+
+  .progress-info p {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  #events {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  .milestone-counter {
+    margin: 20px 2px;
+  }
+
+  .stat-info-div p {
+    padding: 11px 0px;
+  }
+
+  .count-col {
+    margin-top: 74px;
+  }
+
+  .circle {
+    width: 131px;
+  }
+
+  .circle canvas {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .circle strong {
+    top: 31px;
+    font-size: 24px;
+  }
+
+  .progress-info h3 {
+    font-size: 15px;
+  }
+
+  .progress-info p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .progress-info {
+    margin: 0 0 40px;
+  }
+
+  #faq-accordion {
+    margin-top: 16px;
+  }
+
+  .accordion-wrapper {
+    width: auto;
+  }
+
+  .eventsDiv {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 360px) and (min-width: 330px) {
+  .highlight:after {
+    right: 7vw;
+  }
+
+  .highlight1:after {
+    right: 11vw;
+  }
+
+  .circle {
+    width: 97px;
+  }
+
+  .progress-info p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .highlight {
+    font-size: 40px;
+  }
+
+  .highlight:after {
+    font-size: 30px;
+    right: 16vw;
+  }
+
+  .highlight1 {
+    font-size: 40px;
+  }
+
+  .highlight1:after {
+    font-size: 30px;
+    right: 19vw;
+  }
+  .stat-info-div p {
+    font-size: 18px;
+  }
+
+  .circle {
+    width: 240px;
+  }
+
+  .circle canvas {
+    height: 100px !important;
+    width: 100px !important;
+  }
+
+  .progress-info h3 {
+    font-size: 18px;
+  }
+
+  .progress-info p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .video-col video {
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+    margin: auto;
+  }
+}
