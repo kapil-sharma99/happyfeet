@@ -330,44 +330,30 @@ section.header-bg-parent:after {
   margin: 25px;
 }
 
+.milestone-details {
+  font-family: "Rubik";
+  font-size: 14px;
+}
+
 .highlight {
   color: #3b3663;
   padding-top: 20px;
   font-family: "Nunito";
   font-weight: 800;
-  font-size: 56px;
+  font-size: 50px;
   overflow: hidden;
   display: block;
   position: relative;
 }
-
-.highlight:after {
-  content: "+";
-  color: #f47a14;
-  position: absolute;
-  top: 10px;
-  right: 29px;
-  font-size: 30px;
-}
-
 .highlight1 {
   color: #3b3663;
   padding-top: 20px;
   font-family: "Nunito";
   font-weight: 800;
-  font-size: 56px;
+  font-size: 50px;
   overflow: hidden;
   display: block;
   position: relative;
-}
-
-.highlight1:after {
-  content: "+";
-  color: #f47a14;
-  position: absolute;
-  top: 10px;
-  right: 59px;
-  font-size: 30px;
 }
 
 .stat-info-div p {
@@ -781,7 +767,7 @@ input.submit-btn:hover {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  text-align-last: center;
+  text-align: center;
   margin-top: 25px;
   margin-left: 10px;
   transition: all 0.5s ease;

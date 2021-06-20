@@ -169,7 +169,7 @@
   }
 
   .milestone-details {
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .stat {
@@ -189,21 +189,11 @@
   }
 
   .highlight {
-    font-size: 26px;
-  }
-
-  .highlight:after {
-    font-size: 26px;
-    right: 8vw;
+    font-size: 23px;
   }
 
   .highlight1 {
-    font-size: 26px;
-  }
-
-  .highlight1:after {
-    font-size: 26px;
-    right: 12vw;
+    font-size: 23px;
   }
 
   /*Progress Bar*/
@@ -361,22 +351,12 @@
 }
 
 @media screen and (max-width: 320px) {
-  .highlight:after {
-    font-size: 20px;
-    right: 6vw;
-  }
-
   .why-choose-col p {
     font-size: 14px;
   }
 
-  .highlight1:after {
-    font-size: 20px;
-    right: 9vw;
-  }
-
   .milestone-details {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .stat-info-div p {
@@ -409,6 +389,10 @@
 @media screen and (max-width: 1024px) and (min-width: 992px) {
   .milestone-counter {
     margin: 20px 2px;
+  }
+
+  .milestone-details {
+    font-size: 18px;
   }
 
   .stat-info-div p {
@@ -460,14 +444,6 @@
 }
 
 @media screen and (max-width: 360px) and (min-width: 330px) {
-  .highlight:after {
-    right: 7vw;
-  }
-
-  .highlight1:after {
-    right: 11vw;
-  }
-
   .circle {
     width: 97px;
   }
@@ -482,18 +458,8 @@
     font-size: 40px;
   }
 
-  .highlight:after {
-    font-size: 30px;
-    right: 16vw;
-  }
-
   .highlight1 {
     font-size: 40px;
-  }
-
-  .highlight1:after {
-    font-size: 30px;
-    right: 19vw;
   }
   .stat-info-div p {
     font-size: 18px;
@@ -521,5 +487,25 @@
     border-radius: 10px;
     transition: all 0.4s ease-in;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .highlight {
+    font-size: 21px;
+  }
+
+  .highlight1 {
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .highlight {
+    font-size: 43px;
+  }
+
+  .stat-info-div p {
+    padding: 10px 0px;
   }
 }
